@@ -8,11 +8,15 @@
     height: 150vh;
     background-color: #AC474B;
     display: flex;
+    flex-direction: column;
+    gap: 50px;
     align-items: center;
     justify-content: center;
 }
 .had{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 60px;
 }
@@ -32,10 +36,13 @@
 }
 .body{
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 50px;
     width: 400px;
     height: 400px;
 }
 .square{
-    
+    width: calc(50% - 25px);
+    height: calc(50% - 25px);
+    background-color: #fff;
 }
